@@ -3,7 +3,6 @@
 ‎  workflow_dispatch:
 ‎  schedule:
 ‎    - cron: '0 */6 * * *'  # Auto restart every 6 hours
-‎
 ‎jobs:
 ‎  build:
 ‎    name: Start Building...
